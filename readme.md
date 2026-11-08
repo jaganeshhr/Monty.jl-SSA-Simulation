@@ -1,9 +1,8 @@
-This repository contains the code used to estimate and compare the carbon dioxide removal potential of basaltic rock samples under enhanced rock weathering. 
-It has two parts:
+This repo has two parts:
 
-Monty_jl_SSA_Simulation.ipynb (Julia): simulates a field deployment of one feedstock using Monty.jl and exports per-iteration results as CSV files.
+1. A Julia-language notebook using the Monty package for simulating feedstock applications and resulting carbon dioxide drawdown under a constant surface area. 2. AND,
 
-SSA CDR Calculator (Python): reads those CSV files for every sample, computes cumulative CDR, and ranks the samples.
+3. CDR calculations are done using a Python-language notebook.
 
 Requirements:
 Julia 1.10 with a Jupyter Julia kernel (IJulia)
